@@ -1,0 +1,19 @@
+Cars
+
+id_auto - INT - UNSIGNED - PRIMARY KEY - NOTNULL - AUTO_INCREMENT - UNIQUE
+brand - VARCHAR(25) - NOTNULL
+model - VARCHAR(60) - NOTNULL
+color - VARCHAR(10) - NULL
+year - YEAR - NOTNULL
+price - UNSIGNED - SMALLINT - NOTNULL
+km_traveled - UNSIGNED - MEDIUMINT -NULL
+fuel_system - VARCHAR(15) - DEFAULT(petrol)
+class - UNSIGNED -TINYINT - NULL
+equipment - TEXT - NULL 
+description_status - TEXT - NULL
+number_seats - UNSIGNED - TINYINT - NULL
+reservoir_limit - UNSIGNED - SMALLINT - NULL
+reservoir_percent - UNSIGNED - TINYINT - DEFAULT(0)
+motor_horsepower - UNSIGNED - SMALLINT - NULL
+overhaul - DATE - NULL
+
